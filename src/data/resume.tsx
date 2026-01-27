@@ -23,6 +23,9 @@ export const DATA = {
   contact: {
     email: "zixingkeng@gmail.com",
     tel: "+601163314598",
+    contact: {
+    email: "zixingkeng@gmail.com",
+    tel: "+601163314598",
     social: {
       GitHub: {
         name: "GitHub",
@@ -36,7 +39,15 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      // ADD THIS SECTION TO FIX THE ERROR
+      X: {
+        name: "X",
+        url: "https://github.com/jessiekeng", 
+        icon: Icons.x,
+        navbar: true,
+      },
     },
+  },
   },
   work: [
     {
