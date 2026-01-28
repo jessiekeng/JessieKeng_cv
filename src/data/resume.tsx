@@ -179,6 +179,7 @@ export const DATA = {
       image: "",
       video: "",
     },
+    // ... (keep everything above exactly as it is)
     {
       title: "Blog List Backend",
       href: "https://github.com/jessiekeng/part4_bloglist_backend",
@@ -197,6 +198,7 @@ export const DATA = {
       image: "",
       video: "",
     },
-
   ],
+  // ADD THIS LINE HERE
+  hackathons: [],
 } as const;
