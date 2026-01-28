@@ -131,6 +131,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Blog List Backend",
+      href: "https://blogstack-fullstack.onrender.com/",
+      dates: "2026",
+      active: true,
+      description:
+        "Architected a RESTful API using Node.js and Express with MongoDB integration. Implemented secure Token-Based Authentication (JWT) and custom middleware for authorization. Engineered a robust testing suite using Jest and Supertest to ensure API reliability.",
+      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Jest", "Supertest"],
+      links: [
+        {
+          type: "Website",
+          href: "https://blogstack-fullstack.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/part4_bloglist_backend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "AI Chatbot Portfolio",
       href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e", // optional: link to Coursera certificate if available
       dates: "2025",
@@ -180,24 +203,7 @@ export const DATA = {
       video: "",
     },
     // ... (keep everything above exactly as it is)
-    {
-      title: "Blog List Backend",
-      href: "https://github.com/jessiekeng/part4_bloglist_backend",
-      dates: "2026",
-      active: true,
-      description:
-        "Architected a RESTful API using Node.js and Express with MongoDB integration. Implemented secure Token-Based Authentication (JWT) and custom middleware for authorization. Engineered a robust testing suite using Jest and Supertest to ensure API reliability.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Jest", "Supertest"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/jessiekeng/part4_bloglist_backend",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
+ 
   // ... (keep all your existing projects and data above)
   ],
   hackathons: [] as {
