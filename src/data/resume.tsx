@@ -172,6 +172,30 @@ export const DATA = {
       image: "",
       video: "",
     },
+  {
+    title: "GitHub Intelligence MCP Server",
+    href: "https://github.com/jessiekeng/github-intelligence-mcp",
+    dates: "2026",
+    active: true,
+    description:
+      "Developed a high-performance MCP server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics and activity velocity booleans using Zod-based validation and parallel API orchestration to provide AI models with feature-engineered insights.",
+    technologies: [
+      "Node.js",
+      "Model Context Protocol (MCP)",
+      "Zod",
+      "Axios",
+      "JavaScript"
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/jessiekeng/github-intelligence-mcp",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "",
+    video: "",
+  },
 
     {
       title: "JavaFX Movie Ticketing System",
