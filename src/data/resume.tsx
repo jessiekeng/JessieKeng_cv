@@ -189,16 +189,16 @@ export const DATA = {
         "Architected a RESTful API using Node.js and Express with MongoDB integration. Implemented secure Token-Based Authentication (JWT) and custom middleware for authorization. Engineered a robust testing suite using Jest and Supertest to ensure API reliability.",
       technologies: ["Node.js", "Express", "MongoDB", "JWT", "Jest", "Supertest"],
       links: [
-      {
-        type: "Source",
-        href: "https://github.com/jessiekeng/part4_bloglist_backend",
-        icon: <Icons.github className="size-3" />,
-      },
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/part4_bloglist_backend",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video: "",
     },
   ],
-  // ADD THIS LINE HERE
-  hackathons: [],
+  // This 'as any[]' tells TypeScript to stop worrying about the empty array
+  hackathons: [] as any[], 
 } as const;
