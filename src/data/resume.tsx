@@ -198,7 +198,14 @@ export const DATA = {
       image: "",
       video: "",
     },
+  // ... (keep all your existing projects and data above)
   ],
-  // This 'as any[]' tells TypeScript to stop worrying about the empty array
-  hackathons: [] as any[], 
+  hackathons: [] as {
+    title: string;
+    dates: string;
+    location: string;
+    description: string;
+    image?: string;
+    links?: { title: string; icon: React.ReactNode; href: string }[];
+  }[],
 } as const;
