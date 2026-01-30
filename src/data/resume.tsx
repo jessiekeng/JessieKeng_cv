@@ -197,6 +197,32 @@ export const DATA = {
     video: "",
   },
 
+  {
+    title: "Customer Churn Analysis & Prediction",
+    href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+    dates: "2026",
+    active: true,
+    description:
+      "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall and 81.5% average CV score, prioritizing proactive retention strategies.",
+    technologies: [
+      "Python",
+      "Scikit-Learn",
+      "Pandas",
+      "Imbalanced-Learn (SMOTE)",
+      "Seaborn",
+      "Matplotlib"
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "", // You can add a screenshot of your Feature Importance chart here
+    video: "",
+    },
+
     {
       title: "JavaFX Movie Ticketing System",
       href: "https://github.com/jessiekeng/JavaFx_Movie_System",
