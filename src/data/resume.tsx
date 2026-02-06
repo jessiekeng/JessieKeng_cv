@@ -10,11 +10,25 @@ export const DATA = {
   description:
     "Data Science Student at Sunway University. Passionate about AI, Full-Stack Development, and Data Analytics.",
   summary:
-    "17-year-old Data Science student with a 3.9 CGPA and a recipient of the Sunway Entrance Scholarship. I specialize in bridging the gap between Data Analytics and Software Engineering through hands-on projects in RAG-based AI chatbots and Full-Stack development.",
-  avatarUrl: "/me.png", 
+    "Second-year Data Science student at Sunway University with a 3.9/4.0 CGPA. I specialize in bridging the gap between Machine Learning and Software Engineering through hands-on experience in RAG-based AI systems, predictive analytics, and full-stack development.",
   skills: [
-    "Python", "SQL", "Java", "JavaScript", "TypeScript", "React", "Node.js", 
-    "Express", "MongoDB", "Next.js", "Angular", "Spring Boot", "RAG", "LLM", "Pandas", "Power BI"
+    "Python (Pandas, Scikit-learn, Seaborn)", 
+    "SQL", 
+    "C/C++", 
+    "JavaScript", 
+    "Java", 
+    "React", 
+    "Node.js", 
+    "Express", 
+    "MongoDB", 
+    "PostgreSQL",
+    "RAG & LLM Integration", 
+    "LangChain", 
+    "RESTful API Design", 
+    "Git", 
+    "Postman", 
+    "Streamlit", 
+    "Power BI"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -130,6 +144,31 @@ export const DATA = {
   },
   ],
   projects: [
+    {
+      title: "AI Credit Risk Decision Engine",
+      href: "https://github.com/jessiekeng/credit-risk-project",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed an end-to-end risk assessment system combining a Random Forest Classifier with Retrieval-Augmented Generation (RAG). Solved the 'black box' problem by using ChromaDB and LangChain to provide transparent, policy-backed justifications for loan decisions based on DTI ratios and historical data.",
+      technologies: [
+        "Python",
+        "Scikit-Learn",
+        "LangChain",
+        "ChromaDB",
+        "Streamlit",
+        "HuggingFace"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/credit-risk-project",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "", // Add a screenshot of the Streamlit dashboard here
+      video: "",
+    },
     {
       title: "Blog List Backend",
       href: "https://blogstack-fullstack.onrender.com/",
