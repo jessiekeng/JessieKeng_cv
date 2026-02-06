@@ -11,6 +11,7 @@ export const DATA = {
     "Data Science Student at Sunway University. Passionate about AI, Full-Stack Development, and Data Analytics.",
   summary:
     "Second-year Data Science student at Sunway University with a 3.9/4.0 CGPA. I specialize in bridging the gap between Machine Learning and Software Engineering through hands-on experience in RAG-based AI systems, predictive analytics, and full-stack development.",
+  avatarUrl: "/me.png",
   skills: [
     "Python (Pandas, Scikit-learn, Seaborn)", 
     "SQL", 
