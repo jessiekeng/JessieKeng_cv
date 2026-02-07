@@ -172,7 +172,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/credit-risk-screenshot.png", // Recommended: save a screenshot of your app in your public folder
+      image: "", // Recommended: save a screenshot of your app in your public folder
       video: "",
     },
     {
