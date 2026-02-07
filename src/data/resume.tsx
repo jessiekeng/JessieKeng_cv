@@ -147,8 +147,8 @@ export const DATA = {
   projects: [
     {
       title: "AI Credit Risk Decision Engine",
-      href: "https://github.com/jessiekeng/credit-risk-project",
-      dates: "2025",
+      href: "https://credit-risk-rag.streamlit.app/",
+      dates: "2026",
       active: true,
       description:
         "Developed an end-to-end risk assessment system combining a Random Forest Classifier with Retrieval-Augmented Generation (RAG). Solved the 'black box' problem by using ChromaDB and LangChain to provide transparent, policy-backed justifications for loan decisions based on DTI ratios and historical data.",
@@ -162,12 +162,17 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://credit-risk-rag.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
-          href: "https://github.com/jessiekeng/credit-risk-project",
+          href: "https://github.com/jessiekeng/credit-risk-rag",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "", // Add a screenshot of the Streamlit dashboard here
+      image: "/credit-risk-screenshot.png", // Recommended: save a screenshot of your app in your public folder
       video: "",
     },
     {
