@@ -1,47 +1,70 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Jessie Keng | Portfolio & Digital CV
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Professional portfolio showcasing my journey as a **Computer Science (Data Science)** student at Sunway University. This project highlights my expertise in building end-to-end Machine Learning pipelines, RAG-based AI systems, and scalable Full-Stack web applications.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+---
 
-# Features
+## 🚀 About Me
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+I am a Data Science undergraduate with a passion for turning complex data into actionable insights and building robust software solutions. With a **3.9 CGPA** and a background in both technical leadership and academic excellence, I bridge the gap between advanced analytics and modern web development.
 
-# Getting Started Locally
+* 📍 Based in Shah Alam, Selangor, Malaysia
+* 🎓 Sunway University Scholarship Recipient
+* 🥋 1st Dan Black Belt in Tae Kwon Do & Grade 8 Piano
 
-1. Clone this repository to your local machine:
+---
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+## 🛠️ Technical Stack
 
-2. Move to the cloned directory
+### **Data Science & AI**
+* **Languages:** Python (Pandas, Scikit-learn, Seaborn), SQL
+* **AI/ML:** RAG Systems (LangChain, ChromaDB), ML Pipelines, ETL, EDA
+* **Tools:** PowerBI, Streamlit, Google Cloud
 
-   ```bash
-   cd portfolio
-   ```
+### **Full-Stack Development**
+* **Frontend:** React, HTML5, CSS3, JavaScript (ES6+)
+* **Backend:** Node.js, Express, RESTful APIs
+* **Databases:** MongoDB, PostgreSQL, MySQL
+* **DevOps/Tools:** Git, GitHub, Vercel, Render, Postman
 
-3. Install dependencies:
+---
 
-   ```bash
-   pnpm install
-   ```
+## 📂 Featured Projects
 
-4. Start the local Server:
+### 🧠 AI-Powered Credit Risk Decision Engine
+Developed an end-to-end ML pipeline for loan approvals. 
+* **Highlights:** Integrated a RAG system using **LangChain** and **ChromaDB** to provide automated, policy-backed explanations for credit decisions. 
+* **Deployment:** Interactive dashboard via Streamlit.
 
-   ```bash
-   pnpm dev
-   ```
+### 🌐 Full-Stack Blog List Application
+A production-ready MERN stack application.
+* **Highlights:** Features secure **JWT Authentication**, automated testing suites, and a fully responsive React frontend.
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+### 📊 Customer Churn Analytics
+Predictive modeling project focused on business intelligence.
+* **Highlights:** Performed deep EDA to identify attrition drivers and developed models to quantify churn risk for retention strategies.
 
-# License
+---
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+## 📜 Certifications & Achievements
+* **University of Helsinki:** Deep Dive Into Modern Web Development (2026)
+* **Google Cloud:** Certified Professional (2025)
+* **AI/RAG:** RAG Artificial Intelligence (AI Chatbot) Certification (2025)
+* **IGCSE:** 10A* (Sri Emas International School)
+
+---
+
+## 🤝 Leadership & Community
+* **Secretary @ Sunway AI Builders Club:** Co-organized technical events for 50+ attendees.
+* **Student Ambassador @ Sunway University:** Represented the university and engaged with prospective students.
+
+---
+
+## ✉️ Contact & Connect
+* **Email:** zixingkeng@gmail.com
+* **LinkedIn:** [www.linkedin.com/in/jessie-keng]
+* **GitHub:** [github.com/jessiekeng](https://github.com/jessiekeng)
+* **Location:** Shah Alam, Selangor, Malaysia
+
+---
+*Built with ❤️ by Jessie Keng. Deployed on Vercel.*
