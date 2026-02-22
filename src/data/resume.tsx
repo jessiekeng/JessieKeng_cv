@@ -172,7 +172,80 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "", // Recommended: save a screenshot of your app in your public folder
+      image: "",
+      video: "",
+    },
+    {
+      title: "Advanced House Price Regression",
+      href: "https://github.com/jessiekeng/Kaggle-house-prices",
+      dates: "2026",
+      active: true,
+      description:
+        "Achieved a top-tier RMSE of 0.12230 by implementing a multi-stage Stacked CV Regressor. Optimized the bias-variance tradeoff using log-transformations for target normalization, skewness correction for 79 variables, and an ensemble of Lasso, Ridge, and LightGBM models.",
+      technologies: [
+        "Python",
+        "LightGBM",
+        "Ensemble Learning",
+        "Stacked CV",
+        "Statistical Modeling"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/Kaggle-house-prices",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "GitHub Intelligence MCP Server",
+      href: "https://github.com/jessiekeng/github-intelligence-mcp",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed a high-performance MCP server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics and activity velocity booleans using Zod-based validation and parallel API orchestration to provide AI models with feature-engineered insights.",
+      technologies: [
+        "Node.js",
+        "Model Context Protocol (MCP)",
+        "Zod",
+        "Axios",
+        "JavaScript"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/github-intelligence-mcp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Customer Churn Analysis & Prediction",
+      href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+      dates: "2026",
+      active: true,
+      description:
+        "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall and 81.5% average CV score, prioritizing proactive retention strategies.",
+      technologies: [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "Imbalanced-Learn (SMOTE)",
+        "Seaborn",
+        "Matplotlib"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
       video: "",
     },
     {
@@ -229,49 +302,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "AI Chatbot Portfolio",
-      href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e", // optional: link to Coursera certificate if available
-      dates: "2025",
-      active: true,
-      description:
-        "Completed RAG-based chatbot projects using LangChain and LLMs in Python (Jupyter Notebook). Tuned temperature and prompt structures to optimize responses.",
-      technologies: ["Python", "Jupyter Notebook", "LLM", "RAG"],
-      links: [
-        // Only include a link if there’s a publicly shareable certificate
-        {
-          type: "Certificate",
-          href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
-          icon: <Icons.github className="size-3" />, // You can change icon to something else if you want
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "GitHub Intelligence MCP Server",
-      href: "https://github.com/jessiekeng/github-intelligence-mcp",
-      dates: "2026",
-      active: true,
-      description:
-        "Developed a high-performance MCP server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics and activity velocity booleans using Zod-based validation and parallel API orchestration to provide AI models with feature-engineered insights.",
-      technologies: [
-        "Node.js",
-        "Model Context Protocol (MCP)",
-        "Zod",
-        "Axios",
-        "JavaScript"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/jessiekeng/github-intelligence-mcp",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
       title: "Titanic - ML from Disaster",
       href: "https://github.com/jessiekeng/Kaggle_Titanic_ML",
       dates: "2026",
@@ -290,55 +320,23 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Advanced House Price Regression",
-      href: "https://github.com/jessiekeng/Kaggle-house-prices",
-      dates: "2026",
+      title: "AI Chatbot Portfolio",
+      href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
+      dates: "2025",
       active: true,
       description:
-        "Achieved a top-tier RMSE of 0.12230 by implementing a multi-stage Stacked CV Regressor. Optimized the bias-variance tradeoff using log-transformations for target normalization, skewness correction for 79 variables, and an ensemble of Lasso, Ridge, and LightGBM models.",
-      technologies: [
-        "Python",
-        "LightGBM",
-        "Ensemble Learning",
-        "Stacked CV",
-        "Statistical Modeling"
-      ],
+        "Completed RAG-based chatbot projects using LangChain and LLMs in Python (Jupyter Notebook). Tuned temperature and prompt structures to optimize responses.",
+      technologies: ["Python", "Jupyter Notebook", "LLM", "RAG"],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/jessiekeng/Kaggle-house-prices",
+          type: "Certificate",
+          href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video: "",
     },
-    {
-      title: "Customer Churn Analysis & Prediction",
-      href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
-      dates: "2026",
-      active: true,
-      description:
-        "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall and 81.5% average CV score, prioritizing proactive retention strategies.",
-      technologies: [
-        "Python",
-        "Scikit-Learn",
-        "Pandas",
-        "Imbalanced-Learn (SMOTE)",
-        "Seaborn",
-        "Matplotlib"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "", // You can add a screenshot of your Feature Importance chart here
-      video: "",
-    },
-
     {
       title: "JavaFX Movie Ticketing System",
       href: "https://github.com/jessiekeng/JavaFx_Movie_System",
