@@ -13,22 +13,22 @@ export const DATA = {
     "Second-year Data Science student at Sunway University with a 3.9/4.0 CGPA. I specialize in bridging the gap between Machine Learning and Software Engineering through hands-on experience in RAG-based AI systems, predictive analytics, and full-stack development.",
   avatarUrl: "/me.png",
   skills: [
-    "Python (Pandas, Scikit-learn, Seaborn)", 
-    "SQL", 
-    "C/C++", 
-    "JavaScript", 
-    "Java", 
-    "React", 
-    "Node.js", 
-    "Express", 
-    "MongoDB", 
+    "Python (Pandas, Scikit-learn, Seaborn)",
+    "SQL",
+    "C/C++",
+    "JavaScript",
+    "Java",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
     "PostgreSQL",
-    "RAG & LLM Integration", 
-    "LangChain", 
-    "RESTful API Design", 
-    "Git", 
-    "Postman", 
-    "Streamlit", 
+    "RAG & LLM Integration",
+    "LangChain",
+    "RESTful API Design",
+    "Git",
+    "Postman",
+    "Streamlit",
     "Power BI"
   ],
   navbar: [
@@ -53,7 +53,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/jessiekeng", 
+        url: "https://x.com/jessiekeng",
         icon: Icons.x,
         navbar: true,
       },
@@ -113,36 +113,36 @@ export const DATA = {
     },
   ],
   certificates: [
-     { 
-    title: "Deep Dive Into Modern Web Development", 
-    issuer: "University of Helsinki", 
-    link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/02151d342347f33850e71d8fd6dd67b3" 
-  },
-  { 
-    title: "Google Cloud Certifications", 
-    issuer: "Google", 
-    link: "https://www.credly.com/users/zi-xing-keng/badges#credly" 
-  },
-  { 
-    title: "RAG Artificial Intelligence (AI Chatbot)", 
-    issuer: "DeepLearning.AI", 
-    link: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e" 
-  },
-  { 
-    title: "Programming for Everybody (Python)", 
-    issuer: "University of Michigan", 
-    link: "https://www.coursera.org/account/accomplishments/verify/P3MCYGSRZD6M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
-  },
-  { 
-    title: "Foundations: Data, Data, Everywhere", 
-    issuer: "Google", 
-    link: "https://www.coursera.org/account/accomplishments/verify/29YKRNY8ZAEY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
-  },
-  { 
-    title: "Foundations of User Experience (UX) Design", 
-    issuer: "Google", 
-    link: "https://www.coursera.org/account/accomplishments/verify/3ANGJHG4MGQJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
-  },
+    {
+      title: "Deep Dive Into Modern Web Development",
+      issuer: "University of Helsinki",
+      link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/02151d342347f33850e71d8fd6dd67b3"
+    },
+    {
+      title: "Google Cloud Certifications",
+      issuer: "Google",
+      link: "https://www.credly.com/users/zi-xing-keng/badges#credly"
+    },
+    {
+      title: "RAG Artificial Intelligence (AI Chatbot)",
+      issuer: "DeepLearning.AI",
+      link: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e"
+    },
+    {
+      title: "Programming for Everybody (Python)",
+      issuer: "University of Michigan",
+      link: "https://www.coursera.org/account/accomplishments/verify/P3MCYGSRZD6M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
+    {
+      title: "Foundations: Data, Data, Everywhere",
+      issuer: "Google",
+      link: "https://www.coursera.org/account/accomplishments/verify/29YKRNY8ZAEY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
+    {
+      title: "Foundations of User Experience (UX) Design",
+      issuer: "Google",
+      link: "https://www.coursera.org/account/accomplishments/verify/3ANGJHG4MGQJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
   ],
   projects: [
     {
@@ -173,6 +173,36 @@ export const DATA = {
         },
       ],
       image: "", // Recommended: save a screenshot of your app in your public folder
+      video: "",
+    },
+    {
+      title: "Full-Stack Task Tracker",
+      href: "https://task-tracker-full-stack-0ljs.onrender.com",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed a full-stack task management system with an Angular frontend and a Node.js/Express backend. Implemented RESTful APIs for CRUD operations, integrated MongoDB Atlas for data persistence, and handled production deployment with the backend serving the frontend assets.",
+      technologies: [
+        "Angular",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://task-tracker-full-stack-0ljs.onrender.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/task-trakcer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
       video: "",
     },
     {
@@ -207,7 +237,7 @@ export const DATA = {
         "Completed RAG-based chatbot projects using LangChain and LLMs in Python (Jupyter Notebook). Tuned temperature and prompt structures to optimize responses.",
       technologies: ["Python", "Jupyter Notebook", "LLM", "RAG"],
       links: [
-    // Only include a link if there’s a publicly shareable certificate
+        // Only include a link if there’s a publicly shareable certificate
         {
           type: "Certificate",
           href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
@@ -217,55 +247,96 @@ export const DATA = {
       image: "",
       video: "",
     },
-  {
-    title: "GitHub Intelligence MCP Server",
-    href: "https://github.com/jessiekeng/github-intelligence-mcp",
-    dates: "2026",
-    active: true,
-    description:
-      "Developed a high-performance MCP server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics and activity velocity booleans using Zod-based validation and parallel API orchestration to provide AI models with feature-engineered insights.",
-    technologies: [
-      "Node.js",
-      "Model Context Protocol (MCP)",
-      "Zod",
-      "Axios",
-      "JavaScript"
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/jessiekeng/github-intelligence-mcp",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
-    image: "",
-    video: "",
-  },
-
-  {
-    title: "Customer Churn Analysis & Prediction",
-    href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
-    dates: "2026",
-    active: true,
-    description:
-      "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall and 81.5% average CV score, prioritizing proactive retention strategies.",
-    technologies: [
-      "Python",
-      "Scikit-Learn",
-      "Pandas",
-      "Imbalanced-Learn (SMOTE)",
-      "Seaborn",
-      "Matplotlib"
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
-    image: "", // You can add a screenshot of your Feature Importance chart here
-    video: "",
+    {
+      title: "GitHub Intelligence MCP Server",
+      href: "https://github.com/jessiekeng/github-intelligence-mcp",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed a high-performance MCP server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics and activity velocity booleans using Zod-based validation and parallel API orchestration to provide AI models with feature-engineered insights.",
+      technologies: [
+        "Node.js",
+        "Model Context Protocol (MCP)",
+        "Zod",
+        "Axios",
+        "JavaScript"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/github-intelligence-mcp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Titanic - ML from Disaster",
+      href: "https://github.com/jessiekeng/Kaggle_Titanic_ML",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed a Random Forest Classifier to predict survival outcomes with ~82% CV accuracy. Engineered features from passenger names to identify titles (e.g., 'Master') and family units, capturing the historical 'women and children first' patterns of the 1912 disaster.",
+      technologies: ["Python", "Scikit-Learn", "Pandas", "Random Forest", "Feature Engineering"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/Kaggle_Titanic_ML",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Advanced House Price Regression",
+      href: "https://github.com/jessiekeng/Kaggle-house-prices",
+      dates: "2026",
+      active: true,
+      description:
+        "Achieved a top-tier RMSE of 0.12230 by implementing a multi-stage Stacked CV Regressor. Optimized the bias-variance tradeoff using log-transformations for target normalization, skewness correction for 79 variables, and an ensemble of Lasso, Ridge, and LightGBM models.",
+      technologies: [
+        "Python",
+        "LightGBM",
+        "Ensemble Learning",
+        "Stacked CV",
+        "Statistical Modeling"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/Kaggle-house-prices",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Customer Churn Analysis & Prediction",
+      href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+      dates: "2026",
+      active: true,
+      description:
+        "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall and 81.5% average CV score, prioritizing proactive retention strategies.",
+      technologies: [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "Imbalanced-Learn (SMOTE)",
+        "Seaborn",
+        "Matplotlib"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "", // You can add a screenshot of your Feature Importance chart here
+      video: "",
     },
 
     {
@@ -292,14 +363,14 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/jessiekeng/pygame_project",
           icon: <Icons.github className="size-3" />,
-    },
+        },
       ],
       image: "",
       video: "",
     },
     // ... (keep everything above exactly as it is)
- 
-  // ... (keep all your existing projects and data above)
+
+    // ... (keep all your existing projects and data above)
   ],
   hackathons: [] as {
     title: string;
