@@ -146,12 +146,67 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "BlogStack: Enterprise-Ready Backend",
+      href: "https://blogstack-fullstack.onrender.com/",
+      dates: "2026",
+      active: true,
+      description:
+        "Architected a secure MERN backend with JWT-based authentication and role-based authorization. Engineered a robust CI/CD pipeline using GitHub Actions to automate ESLint v9 quality gates and asynchronous integration testing, ensuring 100% build reliability and deterministic state management in a production-ready environment.",
+      technologies: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "GitHub Actions",
+        "ESLint v9",
+        "Supertest",
+        "JWT"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blogstack-fullstack.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/part4_bloglist_backend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "GitHub Intelligence MCP Server",
+      href: "https://github.com/jessiekeng/github-intelligence-mcp",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed a high-performance Model Context Protocol (MCP) server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics using Zod-based strict validation and parallel API orchestration to provide AI models with feature-engineered insights.",
+      technologies: [
+        "Node.js",
+        "Model Context Protocol (MCP)",
+        "Zod",
+        "Axios",
+        "TypeScript"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/github-intelligence-mcp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "AI Credit Risk Decision Engine",
       href: "https://credit-risk-rag.streamlit.app/",
       dates: "2026",
       active: true,
       description:
-        "Developed an end-to-end risk assessment system combining a Random Forest Classifier with Retrieval-Augmented Generation (RAG). Solved the 'black box' problem by using ChromaDB and LangChain to provide transparent, policy-backed justifications for loan decisions based on DTI ratios and historical data.",
+        "Developed an end-to-end risk assessment system combining a Random Forest Classifier with Retrieval-Augmented Generation (RAG). Solved the 'black box' problem by using ChromaDB and LangChain to provide transparent, policy-backed justifications for loan decisions.",
       technologies: [
         "Python",
         "Scikit-Learn",
@@ -176,85 +231,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Advanced House Price Regression",
-      href: "https://github.com/jessiekeng/Kaggle-house-prices",
-      dates: "2026",
-      active: true,
-      description:
-        "Achieved a top-tier RMSE of 0.12230 by implementing a multi-stage Stacked CV Regressor. Optimized the bias-variance tradeoff using log-transformations for target normalization, skewness correction for 79 variables, and an ensemble of Lasso, Ridge, and LightGBM models.",
-      technologies: [
-        "Python",
-        "LightGBM",
-        "Ensemble Learning",
-        "Stacked CV",
-        "Statistical Modeling"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/jessiekeng/Kaggle-house-prices",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "GitHub Intelligence MCP Server",
-      href: "https://github.com/jessiekeng/github-intelligence-mcp",
-      dates: "2026",
-      active: true,
-      description:
-        "Developed a high-performance MCP server to bridge LLMs with real-time GitHub data. Engineered custom repository health metrics and activity velocity booleans using Zod-based validation and parallel API orchestration to provide AI models with feature-engineered insights.",
-      technologies: [
-        "Node.js",
-        "Model Context Protocol (MCP)",
-        "Zod",
-        "Axios",
-        "JavaScript"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/jessiekeng/github-intelligence-mcp",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Customer Churn Analysis & Prediction",
-      href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
-      dates: "2026",
-      active: true,
-      description:
-        "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall and 81.5% average CV score, prioritizing proactive retention strategies.",
-      technologies: [
-        "Python",
-        "Scikit-Learn",
-        "Pandas",
-        "Imbalanced-Learn (SMOTE)",
-        "Seaborn",
-        "Matplotlib"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
       title: "Full-Stack Task Tracker",
       href: "https://task-tracker-full-stack-0ljs.onrender.com",
       dates: "2026",
       active: true,
       description:
-        "Developed a full-stack task management system with an Angular frontend and a Node.js/Express backend. Implemented RESTful APIs for CRUD operations, integrated MongoDB Atlas for data persistence, and handled production deployment with the backend serving the frontend assets.",
+        "Developed a full-stack task management system with an Angular frontend and a Node.js/Express backend. Implemented RESTful APIs for CRUD operations and integrated MongoDB Atlas for data persistence, handling cross-origin resource sharing and production deployment.",
       technologies: [
         "Angular",
         "Node.js",
@@ -279,22 +261,47 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Blog List Backend",
-      href: "https://blogstack-fullstack.onrender.com/",
+      title: "Advanced House Price Regression",
+      href: "https://github.com/jessiekeng/Kaggle-house-prices",
       dates: "2026",
       active: true,
       description:
-        "Architected a RESTful API using Node.js and Express with MongoDB integration. Implemented secure Token-Based Authentication (JWT) and custom middleware for authorization. Engineered a robust testing suite using Jest and Supertest to ensure API reliability.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Jest", "Supertest"],
+        "Achieved a top-tier RMSE of 0.12230 by implementing a multi-stage Stacked CV Regressor. Optimized the bias-variance tradeoff using log-transformations, skewness correction, and an ensemble of Lasso, Ridge, and LightGBM models.",
+      technologies: [
+        "Python",
+        "LightGBM",
+        "Ensemble Learning",
+        "Stacked CV",
+        "Statistical Modeling"
+      ],
       links: [
         {
-          type: "Website",
-          href: "https://blogstack-fullstack.onrender.com/",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/jessiekeng/Kaggle-house-prices",
+          icon: <Icons.github className="size-3" />,
         },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Customer Churn Analysis & Prediction",
+      href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+      dates: "2026",
+      active: true,
+      description:
+        "Engineered a predictive pipeline to identify high-risk telecom customers. Mitigated a 27% class imbalance using SMOTE and optimized a Logistic Regression model via threshold tuning to achieve a 79% Recall score.",
+      technologies: [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "Imbalanced-Learn (SMOTE)",
+        "Matplotlib"
+      ],
+      links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/part4_bloglist_backend",
+          href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -307,7 +314,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Developed a Random Forest Classifier to predict survival outcomes with ~82% CV accuracy. Engineered features from passenger names to identify titles (e.g., 'Master') and family units, capturing the historical 'women and children first' patterns of the 1912 disaster.",
+        "Developed a Random Forest Classifier to predict survival outcomes. Engineered features from passenger names to identify titles and family units, capturing historical patterns of the 1912 disaster.",
       technologies: ["Python", "Scikit-Learn", "Pandas", "Random Forest", "Feature Engineering"],
       links: [
         {
@@ -319,6 +326,60 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "AI Chatbot Portfolio",
+      href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
+      dates: "2025",
+      active: true,
+      description:
+        "Completed RAG-based chatbot projects using LangChain and LLMs in Python. Tuned temperature and prompt structures to optimize context-aware responses.",
+      technologies: ["Python", "Jupyter Notebook", "LLM", "RAG"],
+      links: [
+        {
+          type: "Certificate",
+          href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "JavaFX Movie Ticketing System",
+      href: "https://github.com/jessiekeng/JavaFx_Movie_System",
+      dates: "2025",
+      active: true,
+      description: "Built a desktop application with SQL integration and booking validation for a localized movie theater system.",
+      technologies: ["Java", "JavaFX", "SQL"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/JavaFx_Movie_System",
+          icon: <Icons.github className="size-3" />
+        }
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "PyGame Arcade Project",
+      href: "https://github.com/jessiekeng/pygame_project",
+      dates: "2024",
+      active: false,
+      description:
+        "Developed an arcade-style game using PyGame featuring collision detection, event-driven player controls, and finite game state management.",
+      technologies: ["Python", "PyGame"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/pygame_project",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
     {
       title: "AI Chatbot Portfolio",
       href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
