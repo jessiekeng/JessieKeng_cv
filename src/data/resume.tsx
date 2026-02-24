@@ -345,6 +345,30 @@ export const DATA = {
       video: "",
     },
     {
+      title: "AI Morning Briefing Agent",
+      href: "https://github.com/jessiekeng/n8n-ai-weather-agent",
+      dates: "2026",
+      active: true,
+      description:
+        "Architected an autonomous agentic workflow using n8n to deliver personalized daily briefings. Integrated Google Gemini (LLM) with real-time OpenWeatherMap API data to generate context-aware insights, utilizing OAuth2 for secure Gmail delivery and automated cron-based orchestration.",
+      technologies: [
+        "n8n",
+        "Google Gemini (LLM)",
+        "OAuth2",
+        "OpenWeatherMap API",
+        "Node.js"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/jessiekeng/n8n-ai-weather-agent",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "", // You can add a screenshot of your n8n workflow here later
+      video: "",
+    },
+    {
       title: "JavaFX Movie Ticketing System",
       href: "https://github.com/jessiekeng/JavaFx_Movie_System",
       dates: "2025",
