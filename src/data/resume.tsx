@@ -169,7 +169,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/part4_bloglist_backend",
+          href: "https://github.com/miko-keng/blogstack-fullstack",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -199,7 +199,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/credit-risk-rag",
+          href: "https://github.com/miko-keng/credit-risk-rag",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -208,7 +208,7 @@ export const DATA = {
     },
     {
       title: "GitHub Intelligence MCP Server",
-      href: "https://github.com/jessiekeng/github-intelligence-mcp",
+      href: "https://github.com/miko-keng/github-intelligence-mcp",
       dates: "2026",
       active: true,
       description:
@@ -223,7 +223,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/github-intelligence-mcp",
+          href: "https://github.com/miko-keng/github-intelligence-mcp",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -253,7 +253,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/task-trakcer",
+          href: "https://github.com/miko-keng/task-tracker",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -262,7 +262,7 @@ export const DATA = {
     },
     {
       title: "Advanced House Price Regression",
-      href: "https://github.com/jessiekeng/Kaggle-house-prices",
+      href: "https://github.com/miko-keng/Kaggle-house-prices",
       dates: "2026",
       active: true,
       description:
@@ -277,7 +277,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/Kaggle-house-prices",
+          href: "https://github.com/miko-keng/Kaggle-house-prices",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -286,7 +286,7 @@ export const DATA = {
     },
     {
       title: "Customer Churn Analysis & Prediction",
-      href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+      href: "https://github.com/miko-keng/Customer-Churn-Analysis",
       dates: "2026",
       active: true,
       description:
@@ -301,7 +301,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/Customer-Churn-Analysis",
+          href: "https://github.com/miko-keng/Customer-Churn-Analysis",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -310,7 +310,7 @@ export const DATA = {
     },
     {
       title: "Titanic - ML from Disaster",
-      href: "https://github.com/jessiekeng/Kaggle_Titanic_ML",
+      href: "https://github.com/miko-keng/Kaggle_Titanic_ML",
       dates: "2026",
       active: true,
       description:
@@ -319,7 +319,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/Kaggle_Titanic_ML",
+          href: "https://github.com/miko-keng/Kaggle_Titanic_ML",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -346,7 +346,7 @@ export const DATA = {
     },
     {
       title: "AI Morning Briefing Agent",
-      href: "https://github.com/jessiekeng/n8n-ai-weather-agent",
+      href: "https://github.com/miko-keng/n8n-ai-weather-agent",
       dates: "2026",
       active: true,
       description:
@@ -361,7 +361,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/n8n-ai-weather-agent",
+          href: "https://github.com/miko-keng/n8n-ai-weather-agent",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -370,7 +370,7 @@ export const DATA = {
     },
     {
       title: "JavaFX Movie Ticketing System",
-      href: "https://github.com/jessiekeng/JavaFx_Movie_System",
+      href: "https://github.com/miko-keng/JavaFx_Movie_System",
       dates: "2025",
       active: true,
       description: "Built a desktop application with SQL integration and booking validation for a localized movie theater system.",
@@ -378,7 +378,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/JavaFx_Movie_System",
+          href: "https://github.com/miko-keng/JavaFx_Movie_System",
           icon: <Icons.github className="size-3" />
         }
       ],
@@ -387,7 +387,7 @@ export const DATA = {
     },
     {
       title: "PyGame Arcade Project",
-      href: "https://github.com/jessiekeng/pygame_project",
+      href: "https://github.com/miko-keng/pygame_project",
       dates: "2024",
       active: false,
       description:
@@ -396,7 +396,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jessiekeng/pygame_project",
+          href: "https://github.com/miko-keng/pygame_project",
           icon: <Icons.github className="size-3" />,
         },
       ],
